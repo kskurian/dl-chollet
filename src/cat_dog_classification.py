@@ -94,6 +94,9 @@ plt.title('Training and Validation Loss')
 plt.legend()
 plt.show()
 
+# Here we are creating augmented data
+print("Augmented data creation")
+
 datagen = ImageDataGenerator(
     rotation_range=40,
     width_shift_range=0.2,
